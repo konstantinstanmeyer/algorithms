@@ -3,7 +3,7 @@ import { describe } from "mocha";
 import { expect } from "chai";
 
 describe('Factorial', () => {
-    describe('validates the correct array of factorial factors dependent on the input', () => {
+    describe('validates the correct array of fibonacci array dependent up to the input value', () => {
         let fibonacci;
         beforeEach(() => {
             fibonacci = new Fibonacci();
