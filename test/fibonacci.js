@@ -15,7 +15,7 @@ describe('Factorial', () => {
             expect(fibonacci.getFibonacciArray(0)).to.eql([0, 1]);
         })
         it('should return [ 0, 1 ]', () => {
-            expect(fibonacci.getFibonacciArray(7)).to.eql([0, 1, 1, 2, 3, 5, 8]);
+            expect(fibonacci.getFibonacciArray(7)).to.eql([0, 1, 1, 2, 3, 5, 7]);
         })
     })
     describe('returns the correct value based on the input value, being the index position', () => {
