@@ -3,7 +3,7 @@ import { describe } from "mocha";
 import { expect } from "chai";
 
 describe('Power-of-Two', () => {
-    describe('validates the correct array of fibonacci array dependent up to the input value', () => {
+    describe('determines if the input value is a valid power of 2', () => {
         let powerOfTwo;
         beforeEach(() => {
             powerOfTwo = new PowerOfTwo;
@@ -18,10 +18,10 @@ describe('Power-of-Two', () => {
             expect(powerOfTwo.isPowerOfTwo(1024)).to.eql(true);
         })
     })
-    describe('returns the correct value based on the input value, being the index position', () => {
+    describe('determines if the input value is a valid power of 2', () => {
         let powerOfTwo;
         beforeEach(() => {
-            powerOfTwo = new PowerOfTwo();
+            powerOfTwo = new PowerOfTwo;
         })
         it('3 should return 2', function() {
             expect(powerOfTwo.isPowerOfTwoBitWise(4)).to.equal(true);
