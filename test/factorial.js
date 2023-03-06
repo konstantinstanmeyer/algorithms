@@ -24,7 +24,7 @@ describe('Factorial', () => {
         beforeEach(() => {
             factorial = new Factorial();
         });
-        it('should return [ 0, 1, 1, 2 ]', () => {
+        it('4 should return [ 0, 1, 1, 2 ]', () => {
             expect(factorial.recursiveFactorial(4)).to.eql(24);
         })
         it('0 should return 1', () => {
