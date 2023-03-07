@@ -6,7 +6,7 @@ To run all tests, type:
 npm test
 ```
 
-To run all tests, but skip all after failure, type:
+To run tests, but skip all after failure, type:
 
 ```
 npm run test-b
