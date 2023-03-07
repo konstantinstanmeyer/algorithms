@@ -34,6 +34,12 @@ npm run test-b
 
 *Aim for O(n): linear*
 
+### **Power of Two**
+
+1) Given number "n", determine if the value is a power of two. i.e. 1024 should return true
+
+*Aim for O(1): constant (use &, O(n): linear works too)*
+
 ## **Search Algorithms**
 
 ### **Linear Search**
@@ -49,3 +55,7 @@ npm run test-b
 1) Given a sorted array of "n" elements, find the index of target "t" in the array. Return -1 if the target is not found. i.e.
 
 *Aim for O(logn): logarithmic*
+
+## **Sorting Algorithms**
+
+1) 
