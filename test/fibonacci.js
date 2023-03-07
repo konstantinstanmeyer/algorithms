@@ -1,4 +1,4 @@
-import Fibonacci from "../math-algorithms/fibonacci/code.js";
+import Fibonacci from "../math-algorithms/fibonacci.js";
 import { describe } from "mocha";
 import { expect } from "chai";
 
