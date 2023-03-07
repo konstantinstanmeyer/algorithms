@@ -1,4 +1,4 @@
-import PowerOfTwo from "../math-algorithms/powerOfTwo/code.js";
+import PowerOfTwo from "../math-algorithms/powerOfTwo.js";
 import { describe } from "mocha";
 import { expect } from "chai";
 

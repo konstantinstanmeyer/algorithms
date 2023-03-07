@@ -1,7 +1,7 @@
 import { describe } from "mocha";
 import { expect } from "chai";
 
-import Factorial from "../math-algorithms/factorial/code.js";
+import Factorial from "../math-algorithms/factorial.js";
 
 describe('Factorial', () => {
     describe('validates the correct factorial output without recursion', () => {
