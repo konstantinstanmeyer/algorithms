@@ -52,10 +52,14 @@ npm run test-b
 
 (Implement with and without recursion)
 
-1) Given a sorted array of "n" elements, find the index of target "t" in the array. Return -1 if the target is not found. i.e.
+1) Given a sorted array of "n" elements, find the index of target "t" in the array. Return -1 if the target is not found. i.e. [1,2,3,4,5] with a target of 4 should return 3
 
 *Aim for O(logn): logarithmic*
 
 ## **Sorting Algorithms**
 
-1) 
+### **Bubble Sort**
+
+1) Given an array of numbers, sort the elements in ascending order. i.e. [1,4,2,3,0] should return [0,1,2,3,4]
+
+*Aim for O(n): linear*
