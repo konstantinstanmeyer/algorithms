@@ -2,7 +2,7 @@ import linearSearch from '../search-algorithms/linearSearch.js'
 import { describe } from 'mocha'
 import { expect } from 'chai'
 
-describe('Linear', () => {
+describe('Linear Search', () => {
     describe('validates correct index from array input and target value', () => {
         it('([1,2,3,4,5], 4) should return 3', () => {
             expect(linearSearch([1,2,3,4,5], 4)).to.eql(3);
