@@ -42,13 +42,27 @@ npm run test-b
 
 ## **Search Algorithms**
 
-### **Linear Search:** <sub><sup></sup></sub>
+### **Linear Search:** <sub><sup>given an array of 'n' elements and a target 't', find the index of 't'. return -1 if element is nod found</sup></sub>
+
+**Pseudocode:**
+
+- Start at the first element of an array and move towards the last
+- At each element check if it is the target element
+- If element is found, return its index
+- If element is not found, return -1
 
 1) Given array "arr", find the index of target "t". Return -1 if the target is not found. i.e. [1,2,3,4,5] with a target of 4 should return 3
 
     *Aim for O(n): linear*
 
-### **Binary Search:** <sub><sup></sup></sub>
+### **Binary Search:** <sub><sup>given a sorted array of 'n' elements and a target 't', find the index of 't'. return -1 if element is nod found</sup></sub>
+
+**Pseudocode:**
+
+- If the array is empty, return -1 for the element is not found
+- If the array has elements, find the middle element in the array. If the target is equal to the middle element, return the middle element's index
+- If the target element is less than the middle, binary search the left half of the array
+- If the target element is greater than the middle, binary search the right half of the array
 
 (Implement with and without recursion)
 
@@ -58,7 +72,14 @@ npm run test-b
 
 ## **Sorting Algorithms**
 
-### **Bubble Sort:** <sub><sup></sup></sub>
+### **Bubble Sort:** <sub><sup>given an array of integers, sort the elements</sup></sub>
+
+**Pseudocode:**
+
+- Start at the first element of an array and move towards the last
+- At each element check if it is the target element
+- If element is found, return its index
+- If element is not found, return -1
 
 1) Given an array of numbers, sort the elements in ascending order. i.e. [1,4,2,3,0] should return [0,1,2,3,4]
 
