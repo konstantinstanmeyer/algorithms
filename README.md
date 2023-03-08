@@ -76,9 +76,9 @@ npm run test-b
 
 **Pseudocode:**
 
-- Start at the first element of an array and move towards the last
-- At each element check if it is the target element
-- If element is found, return its index
+- Compare adjacent elements in the array and swap the positions if they are not in the intended order
+- Repeat the instructions as you step through each element of the array
+- Once you step through the whole array with no swaps, the array is sorted
 - If element is not found, return -1
 
 1) Given an array of numbers, sort the elements in ascending order. i.e. [1,4,2,3,0] should return [0,1,2,3,4]
