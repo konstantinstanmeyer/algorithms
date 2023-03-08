@@ -84,3 +84,17 @@ npm run test-b
 1) Given an array of numbers, sort the elements in ascending order. i.e. [1,4,2,3,0] should return [0,1,2,3,4]
 
     *Aim for O(n): linear*
+
+### **Insertion Sort:** <sub><sup>given an array of integers, sort the elements</sup></sub>
+
+**Pseudocode:**
+
+- Split the array into unsorted and sorted (the first element of the array is assumed to be sorted)
+- Select an unsorted element and compare it with the sorted elements
+- If the elements in the sorted array are smaller than the selected, unsorted element, proceed to the next element in the unsorted array. Otherwise, shift the larger, sorted elements to the right of the selected, unsorted element.
+- Insert the selected element into the correct index
+- Repeat steps until the last element is reached, and all elements are sorted
+
+1) Given an array of numbers, sort the elements in ascending order. i.e. [1,4,2,3,0] should return [0,1,2,3,4]
+
+    *Aim for O(n): linear*
