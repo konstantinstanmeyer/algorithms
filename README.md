@@ -98,3 +98,16 @@ npm run test-b
 1) Given an array of numbers, sort the elements in ascending order. i.e. [1,4,2,3,0] should return [0,1,2,3,4]
 
     *Aim for O(n): linear*
+
+### **Quick Sort:** <sub><sup>given an array of integers, sort the elements</sup></sub>
+ 
+**Pseudocode:**
+
+- Identify a pivot element: any element can be chosen as the pivot, but the first, last, and middle are most common
+- Put all elements smaller than the pivot into a 'left' array, and all elements larger than the pivot into a 'right' array
+- Repeat the process in the smaller arrays until they are one element in length, which is sorted by definition
+- Concatenate the left array, pivot element, and right array
+
+1) Given an array of numbers, sort the elements in ascending order. i.e. [1,4,2,3,0] should return [0,1,2,3,4]
+
+    *Aim for O(n): linear*
