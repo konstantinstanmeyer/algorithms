@@ -111,3 +111,14 @@ npm run test-b
 1) Given an array of numbers, sort the elements in ascending order. i.e. [1,4,2,3,0] should return [0,1,2,3,4]
 
     *Aim for O(n): linear*
+
+### **Merge Sort:** <sub><sup>given an array of integers, sort the elements</sup></sub>
+ 
+**Pseudocode:**
+
+- Divide the given array into sub-arrays with a single element each
+- Merge the sub-arrays into sorted sub-arrays, until a single array remains which will be sorted
+
+1) Given an array of numbers, sort the elements in ascending order. i.e. [1,4,2,3,0] should return [0,1,2,3,4]
+
+    *Aim for O(nlogn): logarithmic*
