@@ -12,7 +12,7 @@ To run tests, but skip all after failure, type:
 npm run test-b
 ```
 
-# Prompts
+# Core Algorithms and Prompts
 
 ## **Math Algorithms**
 
